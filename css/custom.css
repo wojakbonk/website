@@ -1,0 +1,73 @@
+#iframe-trackbsc {
+    margin-left: -15px !important;
+    margin-right: -15px !important;
+}
+.quote {
+    color: #789922;
+}
+
+
+.postMessage {
+    margin-left: 5%;
+    text-align: left;
+}
+
+.boardTitle {
+    color: #af0a0f;
+    font-family: Tahoma,sans-serif;
+    font-weight: 700;
+    letter-spacing: -2px;
+    margin-top: 0px;
+    text-align: center;
+}
+
+.togglePostFormLink {
+    color: #34345c;
+    font-size: 38px;
+    font-weight: 700;
+    text-align: center;
+    font-family: arial,helvetica,sans-serif;
+    margin-top: 20px;
+}
+
+a.togglePostFormLink:hover {
+    color: #d00;
+}
+
+body {
+    background: url(fade-blue.png) repeat-x scroll center top #eef2ff;
+    background-color: rgb(238, 242, 255);
+    background-position-x: center;
+    background-position-y: top;
+    background-repeat: repeat-x;
+    background-attachment: scroll;
+    background-image: url("fade-blue.png");
+    background-size: auto;
+    background-origin: padding-box;
+    background-clip: border-box;
+}
+
+.wojakimg {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.row {
+  display: flex;
+}
+
+.wojakrow{
+    margin-left: 20%;
+}
+
+.column {
+  float: left;
+}
+
+.left {
+  width: 20%;
+}
+.right {
+  width: 80%;
+}

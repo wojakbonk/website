@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" >
+		<title>WojakBonk! Bonk the Wojak!</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- Google Fonts -->
+		<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@100;200;300;400;500;600;700;800;900&family=Nunito:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+		<!-- Bootstrap 4.5.2 CSS -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+		<!-- Slick 1.8.1 jQuery plugin CSS (Sliders) -->
+		<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+		<!-- Fancybox 3 jQuery plugin CSS (Open images and video in popup) -->
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+		<!-- AOS 2.3.4 jQuery plugin CSS (Animations) -->
+		<link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+		<!-- FontAwesome CSS -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+		<!-- Main CSS -->
+		<link href="css/style.min.css" rel="stylesheet" />
+		<!-- jQuery 3.5.1 -->
+		<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+		
+		<!-- Favicon -->
+		<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+		<link rel="manifest" href="/site.webmanifest">
+		<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+		<meta name="apple-mobile-web-app-title" content="WojakBonk">
+		<meta name="application-name" content="WojakBonk">
+		<meta name="msapplication-TileColor" content="#ffc40d">
+		<meta name="theme-color" content="#ffffff">
+
+		<!-- Primary Meta Tags -->
+		<meta name="title" content="WojakBonk. >tfw bonked!">
+		<meta name="description" content="WojakBonk is a  token on BSC with deflationary properties and automatic yield generation. 10% tax on each transaction. No presale. Anti-snipe protection.">
+
+		<!-- Open Graph / Facebook -->
+		<meta property="og:type" content="website">
+		<meta property="og:url" content="https://WojakBonk.com/">
+		<meta property="og:title" content="WojakBonk. >tfw bonked!">
+		<meta property="og:description" content="WojakBonk is a token on BSC with deflationary properties and automatic yield generation. 10% tax on each transaction. No presale. Anti-snipe protection.">
+		<meta property="og:image" content="/metadata-image.jpg">
+
+		<!-- Twitter -->
+		<meta property="twitter:card" content="summary_large_image">
+		<meta property="twitter:url" content="https://wojakbonk.com/">
+		<meta property="twitter:title" content="WojakBonk. >tfw bonked!">
+		<meta property="twitter:description" content="WojakBonk is a fluffy token on BSC with deflationary properties and automatic yield generation. 10% tax on each transaction. No presale. Anti-snipe protection.">
+		<meta property="twitter:image" content="/metadata-image.jpg">
+
+		<!-- Custom CSS -->
+		<link href="css/custom.css" rel="stylesheet" />
+
+		<!-- Rubic Widget -->
+		<!-- <script type="text/javascript" src="https://widgets.rubic.exchange/iframe/bundle.min.js"></script> -->
+	</head> 
+	<body>
+		<!-- Navigation -->
+		<footer class="pt-75 pb-65 text-center footer_1">
+			<div class="container px-xl-0">
+				<div class="row justify-content-between align-items-center lh-40 links">
+					<div class="col-lg-4 col-sm-6 text-sm-right text-lg-left order-1 order-lg-0" data-aos="fade-down" data-aos-delay="50">
+						<a href="https://www.dextools.io/app/bsc/pair-explorer/0xbe80839a3be4d3953d5588a60a11aeaed286b593?utm_source=wojakbonk.com" class="link mr-15 color-main f-18 bold" target="_blank" rel="noopener noreferrer">
+							DexTools
+						</a>
+						<a href="https://poocoin.app/tokens/_CONTRACT_ADDRESS_?utm_source=wojakbonk.com" class="link ml-15 mr-15 color-main f-18 bold" target="_blank" rel="noopener noreferrer">
+							PooCoin
+						</a>
+						<a href="https://charts.bogged.finance/_CONTRACT_ADDRESS_" class="link color-main bold f-18 ml-15" target="_blank" rel="noopener noreferrer">
+							BOGCharts
+						</a>
+					</div>
+					<div class="mb-10 mb-lg-0 col-lg-auto order-0">
+						<a href="#" class="link img_link">
+							<img src="./images/wojakbonk.png" alt="WojakBonk logo" class="img-fluid w-200" data-aos="fade-down" data-aos-delay="0">
+						</a>
+					</div>
+					<div class="col-lg-4 col-sm-6 text-sm-left text-lg-right order-2 order-lg-0" data-aos="fade-down" data-aos-delay="50">
+						<a class="mr-15 link color-main" href="https://t.me/WojakBonk_community?utm_source=wojakbonk.com" target="_blank" rel="noopener noreferrer">
+							<i class="fab fa-telegram-plane f-18">
+							</i>
+						</a>
+						<a class="mx-15 link color-main" href="https://discord.gg/AxdDSjJ8VP?utm_source=wojakbonk.com" target="_blank" rel="noopener noreferrer">
+							<i class="fab fa-discord f-18">
+							</i>
+						</a>
+						<a href="https://twitter.com/WojakBonk_token?utm_source=wojakbonk.com" class="mx-15 link color-main" target="_blank" rel="noopener noreferrer">
+							<i class="fab fa-twitter f-18">
+							</i>
+						</a>
+						<a href="https://www.reddit.com/r/WojakBonk?utm_source=wojakbonk.com" class="ml-15 link color-main" target="_blank" rel="noopener noreferrer">
+							<i class="fab fa-reddit-alien f-18">
+							</i>
+						</a>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!-- Header -->
+			<header class="pb-110 header_1 pt-50">
+				<div class="container">
+					<h1 class="big text-center boardTitle" data-aos="fade-down" data-aos-delay="0">
+						/WONK/ - WojakBonk
+					</h1>
+					<div class="mw-600 mx-auto mt-30 f-22 color-heading text-center text-adaptive" data-aos="fade-down" data-aos-delay="50">
+					<p>WojakBonk (WONK) is a simple concept, but perhaps can be best summarized by Wojak himself:</p>
+          </div>
+          <div class="row wojakrow">
+          <div class="column left">
+          <img class="wojakimg" src="./images/greenwojak.jpg"/>
+          </div>
+          <div class="column right">
+					<blockquote class="postMessage">
+					<span class="quote">>tfw missed Bitcoin, Doge, Shiba</span>
+					<br>
+					<span class="quote">>tfw missed DogeBonk</span>
+          <br>
+					<span class="quote">>cant take being a wagie any longer</span>
+					<br>
+					<span class="quote">>always missing out on crypto gems</span>
+					<br>
+					<span class="quote">>find WojakBonk (WONK)</span>
+					<br>
+					<span class="quote">>buy 1BNB worth of WONK, coz why not</span>
+					<br>
+					<span class="quote">>normies start to catch on, Wojak one of the most popular memes after all</span>
+					<br>
+					<span class="quote">>solid tokenomics keep the price steadily growing</span>
+					<br>
+					<span class="quote">>it goes up 1,000,000% in the next few months</span>
+						</blockquote>
+					</div>
+					</div>
+					</div>
+					
+					
+					<div class="mw-600 mx-auto mt-30 f-22 color-heading text-center text-adaptive" data-aos="fade-down" data-aos-delay="50">
+						Address: <br>
+						_CONTRACT_ADDRESS_
+					</div>
+					<div class="mt-80 text-center buttons" data-aos="fade-down" data-aos-delay="100">
+						<div>
+							<a href="https://pancakeswap.finance/swap?outputCurrency=_CONTRACT_ADDRESS_&utm_source=wojakbonk.com" class="btn togglePostFormLink" target="_blank" rel="noopener noreferrer">
+								[Get WONK on PancakeSwap]
+							</a>
+						</div>
+					</div>
+					<div class="mw-600 mx-auto color-heading text-center text-adaptive mt-10 f-16" data-aos="fade-down" data-aos-delay="50">
+						<span class="medium quote">>use 12% slippage, remove all decimals</span>
+					</div>
+				</div>
+			</header>
+			<!-- <section class="pt-105 pb-45 text-center feature_1" id="rubic"> 
+				<div id="rubic-widget-root"></div> -->
+			</section>
+
+			<!-- Features -->
+				<section class="pt-105 pb-45 text-center feature_1" id="tokenomics">
+					<div class="container px-xl-0">
+						<div class="row justify-content-center">
+							<div class="col-xl-10">
+								<h2 class="togglePostFormLink" data-aos="fade-down" data-aos-delay="0">
+									/Tokenomics/
+								</h2>
+								<div class="mw-600 mx-auto mt-30 f-22 color-heading text-center text-adaptive" data-aos="fade-down" data-aos-delay="50">
+								WojakBonk uses the same tokenomics system as DogeBonk:
+								</div>
+								<br>
+					<div class="wojakrow">
+					<blockquote class="postMessage">
+					<span class="quote">>same tokenomics as DogeBonk</span>
+					<br>
+					<span class="quote">>5% tax distributed to all hodlers</span>
+					<br>
+					<span>incentivizes hodling WONK, less dumping of price</span>
+					<br>
+					<span class="quote">>5% tax added to the locked liquidity pool</span>
+					<br>					
+					<span>this creates an ever rising price floor</span>
+					</blockquote>
+					</div>
+					<br>
+
+								<div class="row justify-content-center">
+									<div class="col-md-4 mb-50" data-aos="fade-down" data-aos-delay="100">
+										<img class="wojakimg" src="./images/wojaklocked.jpg"/>
+										<div class="mt-20 mb-25 f-22 title quote">
+											>liquidity locked forever
+										</div>
+										<div class="color-heading text-adaptive">
+											By sending all LP tokens to the zero &amp; burn address, liquidity was locked forever.
+										</div>
+										<div class="color-heading text-adaptive">
+											<a target="_blank" rel="noopener noreferrer" href="https://bscscan.com/tx/_LP_LOCK_TX_?utm_source=wojakbonk.com" data-sf-label="Container">
+												Click to see tx on BscScan.
+											</a>
+										</div>
+									</div>
+									<div class="col-md-4 mb-50" data-aos="fade-down" data-aos-delay="100">
+										<img class="wojakimg" src="./images/wojakrenounced.jpg"/>
+										<div class="mt-20 mb-25 f-22 title quote">
+											>ownership renounced
+										</div>
+										<div class="color-heading text-adaptive">
+											To prevent manipulation of tax fees, ownership of the contract was renounced.
+										</div>
+										<div class="color-heading text-adaptive">
+											<a target="_blank" rel="noopener noreferrer" href="https://bscscan.com/tx/_OWNERSHIP_RENOUNCED_TX_?utm_source=wojakbonk.com" data-sf-label="Container">
+												Click to see tx on BscScan.
+											</a>
+										</div>
+									</div>
+								</div>
+								<div class="row justify-content-center">
+									<div class="col-md-4 mb-50" data-aos="fade-down" data-aos-delay="50">
+										<img class="wojakimg" src="./images/wojaktotalsupply.jpg"/>
+										<div class="mt-20 mb-25 f-22 title quote">
+											>total Supply:
+										</div>
+										<div class="color-heading text-adaptive">
+											1,000,000,000,000,000 WONK
+										</div>
+										<div class="color-heading text-adaptive">
+											<a target="_blank" rel="noopener noreferrer" href="https://bscscan.com/tx/_INITIAL_MINT_TX_?utm_source=wojakbonk.com">
+												Click to see tx on BscScan.
+											</a>
+										</div>
+									</div>
+									<div class="col-md-4 mb-50" data-aos="fade-down" data-aos-delay="100">
+									<img class="wojakimg" src="./images/wojakburned.png"/>
+										<div class="mt-20 mb-25 f-22 title quote">
+											>30% burned
+										</div>
+										<div class="color-heading text-adaptive">
+											300,000,000,000,000 WONK (30%)
+										</div>
+										<div class="color-heading text-adaptive">
+											<a target="_blank" rel="noopener noreferrer" href="https://bscscan.com/tx/_INITIAL_BURN_TX_?utm_source=wojakbonk.com">
+												Click to see tx on BscScan.
+											</a>
+										</div>
+									</div>
+									<div class="col-md-4 mb-50" data-aos="fade-down" data-aos-delay="100">
+										<img class="wojakimg" src="./images/wojakpool.jpg"/>
+										<div class="mt-20 mb-25 f-22 title quote">
+											>pancakeSwap Liquidity
+										</div>
+										<div class="color-heading text-adaptive">
+											680,000,000,000,000 WONK (68%)
+										</div>
+										<div class="color-heading text-adaptive">
+											<a target="_blank" rel="noopener noreferrer" href="https://bscscan.com/tx/_LP_POOL_CREATION_TX_?utm_source=wojakbonk.com">
+												Click to see tx on BscScan.
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				
+					<!-- Memes showcase -->
+					<!--
+						<section class="pt-105 pb-95 showcase_1" id="memes">
+							<div class="container px-xl-0">
+								<div class="row justify-content-center text-center">
+									<div class="col-xl-8 col-lg-10">
+										<h2 class="small togglePostFormLink" data-aos="fade-down" data-aos-delay="0">
+											/WONK memes/
+										</h2>
+										<div class="mt-15 mb-30 f-22 color-heading text-adaptive description" data-aos="fade-down" data-aos-delay="50">
+											  A collection of memes handcrafted by our talented community. Made a meme for WojakBonk? Submit it in the official Telegram for a WONK reward.
+										</div>
+									</div>
+								</div>
+								<div class="mt-10 row justify-content-center text-center text-md-left">
+									<div class="mt-70 col-lg-4 col-md-6 col-sm-9 block" data-aos="fade-down" data-aos-delay="0">
+										<a class="d-block">
+											<img src="uploads/WojakBonkmeme1.jpg" srcset="uploads/WojakBonkmeme1.jpg 2x" alt="doge bonk meme WojakBonk memes" class="radius10 img-fluid mh-240">
+										</a>
+									</div>
+									<div class="mt-70 col-lg-4 col-md-6 col-sm-9 block" data-aos="fade-down" data-aos-delay="0">
+										<a class="d-block mh-240">
+											<img src="uploads/WojakBonkmeme2.jpg" srcset="uploads/WojakBonkmeme2.jpg 2x" alt="doge bonk meme WojakBonk memes" class="img-fluid radius10 mh-240">
+										</a>
+									</div>
+									<div class="mt-70 col-lg-4 col-md-6 col-sm-9 block" data-aos="fade-down" data-aos-delay="0">
+										<a class="d-block">
+											<img src="uploads/WojakBonkmeme3.jpg" srcset="uploads/WojakBonkmeme3.jpg 2x" alt="doge bonk meme WojakBonk memes" class="img-fluid radius10">
+										</a>
+									</div>
+									<div class="mt-70 col-lg-4 col-md-6 col-sm-9 block" data-aos="fade-down" data-aos-delay="0">
+										<a class="d-block">
+											<img src="uploads/WojakBonkmeme4.jpg" srcset="uploads/WojakBonkmeme4.jpg 2x" alt="doge bonk meme WojakBonk memes" class="img-fluid radius10">
+										</a>
+									</div>
+									<div class="mt-70 col-lg-4 col-md-6 col-sm-9 block" data-aos="fade-down" data-aos-delay="0">
+										<a class="d-block">
+											<img src="uploads/WojakBonkmeme5.jpg" srcset="uploads/WojakBonkmeme5.jpg 2x" alt="doge bonk meme WojakBonk memes" class="img-fluid radius10">
+										</a>
+									</div>
+									<div class="mt-70 col-lg-4 col-md-6 col-sm-9 block" data-aos="fade-down" data-aos-delay="0">
+										<a class="d-block">
+											<img src="uploads/WojakBonkmeme6.jpg" srcset="uploads/WojakBonkmeme6.jpg 2x" alt="doge bonk meme WojakBonk memes" class="img-fluid radius10">
+										</a>
+									</div>
+								</div>
+								<div class="row justify-content-center text-center">
+
+									<div class="col-xl-8 col-lg-10">
+										<a href="https://t.me/joinchat/id3cNKho1mRkZjM0?utm_source=wojakbonk.com" class="btn togglePostFormLink" target="_blank" rel="noopener noreferrer">
+											[View All]
+										</a>
+									</div>
+								</div>
+							</div>
+						</section>
+						-->
+							<!-- Reflection tracker -->
+							<!--
+							<section class="pt-80 pb-70 text-center pricing_table_2" id="reflection">
+								<div class="container px-xl-0">
+									<h2 class="small" data-aos="fade-down" data-aos-delay="50">
+										Reflection Tracker
+									</h2>
+									<div class="color-heading text-adaptive f-22 mt-15 mb-30">
+										See how much you've earned just by holding WONK tokens. <br>Tool: TrackBSC by OnlyOneToken.
+									</div>
+									<iframe
+										id="iframe-trackbsc"
+										width="700px"
+										height="550px"
+										src="https://trackbsc.com/earnings?token=_CONTRACT_ADDRESS_">
+									</iframe>
+								</div>
+								-->
+							</section>
+								<!-- Telegram CTA -->
+									<section class="pt-100 pb-100 text-center call_to_action_2">
+										<div class="container px-xl-0">
+											<div class="px-110 pt-80 pb-80 radius10 inner">
+												<h2 class="mb-40 small quote" style="text-align:left; margin-left: 20%" data-aos="fade-down" data-aos-delay="0">
+													>just bought some Wojak!
+													<br>>now what?
+												</h2>
+												<h2 class="mb-40 small" data-aos="fade-down" data-aos-delay="0">
+												join our telegram:</h2>
+												<div data-aos="fade-down" data-aos-delay="50">
+													<a class="btn togglePostFormLink" target="_blank" rel="noopener noreferrer" href="https://t.me/WojakBonk_community?utm_source=wojakbonk.com">
+														[Telegram]
+													</a>
+												</div>
+											</div>
+										</div>
+									</section>
+									<!-- Footer -->
+										<footer class="pt-70 pb-65 text-center footer_2">
+											<div class="container px-xl-0">
+												<div class="row justify-content-center">
+													<div class="col-12 lh-40 text-center align-self-center" data-aos="fade-down" data-aos-delay="0">
+														<a class="link color-main mr-20 text-center" href="https://www.coingecko.com/en/coins/WojakBonk?utm_source=wojakbonk.com" target="_blank" rel="noopener noreferrer">
+															CoinGecko
+														</a>
+														<a class="link color-main mx-20 text-center" href="https://coinmarketcap.com/currencies/WojakBonk?utm_source=wojakbonk.com" target="_blank" rel="noopener noreferrer">
+															CoinMarketCap
+														</a>
+														<a class="link color-main mx-20 text-center" href="https://nomics.com/assets/WONK-WojakBonk?utm_source=wojakbonk.com" target="_blank" rel="noopener noreferrer">
+															Nomics
+														</a>
+														<a class="link color-main mx-20 text-center" href="https://www.livecoinwatch.com/price/WojakBonk-WONK?utm_source=wojakbonk.com" target="_blank" rel="noopener noreferrer">
+															LiveCoinWatch
+														</a>
+														<a class="link color-main mx-20 text-center" href="https://coinpaprika.com/coin/WONK-WojakBonk?utm_source=wojakbonk.com" target="_blank" rel="noopener noreferrer">
+															CoinPaprika
+														</a>
+														<a class="link color-main ml-20 text-center" href="mailto:contact@wojakbonk.com">
+															Contact
+														</a>
+													</div>
+													<div class="mt-20 col-12" data-aos="fade-down" data-aos-delay="50">
+														<div class="color-heading text-adaptive">
+															Disclaimer: creators and maintainers of WojakBonk/WONK are not liable for any loss when trading this cryptocurrency token. Nothing on this page is financial advice.
+														</div>
+													</div>
+												</div>
+											</div>
+										</footer>
+
+		<!-- Bootstrap 4.5.2 JS -->
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+		<!-- Fancybox 3 jQuery plugin JS (Open images and video in popup) -->
+		<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+		<!-- Slick 1.8.1 jQuery plugin JS (Sliders) -->
+		<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+		<!-- AOS 2.3.4 jQuery plugin JS (Animations) -->
+		<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+		<!-- Maskedinput jQuery plugin JS (Masks for input fields) -->
+		<script src="js/jquery.maskedinput.min.js"></script>
+		<!-- Main JS -->
+		<script src="js/script.js"></script>
+		<!-- Rubic Widget -->
+		<!--
+		<script defer type="text/javascript">
+			// describe widget configuration and saving to a global variable for future use
+			var configuration = {
+				from: 'BNB',
+				to: '_CONTRACT_ADDRESS_',
+				fromChain: 'BSC',
+				toChain: 'BSC',
+				amount: 1,
+				iframe: 'flex',
+				hideSelectionFrom: false,
+				hideSelectionTo: false,
+				theme: 'light',
+				background: '#d9bd62'
+			}
+		
+			// prevent accidental changes to the object, for example, when re-creating a widget for another theme
+			Object.freeze(configuration);
+		
+			// create widget
+			rubicWidget.init(configuration);
+		</script>
+		-->
+	</body>
+</html>
